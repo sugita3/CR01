@@ -18,7 +18,7 @@
 - Web版を以下のサイトで公開
   - https://unityroom.com/games/manbo-ga-takusann-rashii
 
-- 手元で起動する場合、10-sugita3/gamejam01xxxhaifu/
+- 手元で起動する場合、10-sugita3/CR01/
 を、UnityHubのリストに追加し、起動する。
 
 <<注意>>
@@ -40,9 +40,9 @@ unityroomに投稿したものと、
 
 ------------------------------------------------------------------------------
 ■プロジェクトフォルダー構成
-- `gamejam01xxxhaifu`フォルダー
+- `CR01`フォルダー
   - Unityのプロジェクトフォルダー
-  - `10-sugita3/gamejam01xxx/Assets/Scenes/Title`シーンが起動用のシーン
+  - `10-sugita3/CR01/Assets/Scenes/Title`シーンが起動用のシーン
   - 再配布が禁止されている素材は削除しています。
   ＜削除したアセットと同種類のアセットを、正確な位置に入れないとエラーが起きるため注意してください＞削除したデータの場所は後述
 - APIキーを削除しているので、ネットランキングは動作しません
@@ -53,7 +53,7 @@ unityroomに投稿したものと、
 
 ------------------------------------------------------------------------------
 ■スクリプトファイル概要
-　本ゲーム用のプログラムは`gamejam01xxxhaifu/Assets/Scripts`フォルダーにまとめてある。
+　本ゲーム用のプログラムは`10_sugita3/CR01/Assets/Scripts`フォルダーにまとめてある。
 
 ```
 |- Assets/Scripts
@@ -195,7 +195,9 @@ https://maoudamashii.jokersounds.com/list/bgm5.html
 Grass Road Race
 （風景・地面などで使用）
 Mat_Sky
-- Assets/Scenes/Game/Window/Rendering/LightingSettings/Skybox Material
+- Assets/Scenes/Game/シーンを開く
+Windowを開いて、Rendering　の、　LightingSettings/Skybox Material
+
 Track(アセットのDemoシーン内から拝借します)
 - Assets/Scenes/Game/Ground/
 （Trackは複数持ってくる必要があります）
